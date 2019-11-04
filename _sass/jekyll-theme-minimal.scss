@@ -12,6 +12,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
+  
 }
 
 p, ul, ol, table, pre, dl {
@@ -116,13 +117,15 @@ ul.downloads {
   height:40px;
   padding:0;
   background: #f4f4f4;
-  border-radius:5px;
+  border-radius:1px;
   border:1px solid #e0e0e0;
-  width:270px;
+  width:280px;
+
+
 }
 
 .downloads li {
-  width:89px;
+  width:140px;
   float:left;
   border-right:1px solid #e0e0e0;
   height:40px;
@@ -160,9 +163,9 @@ strong {
   font-weight:700;
 }
 
-.downloads li + li + li {
+.downloads li + li {
   border-right:none;
-  width:89px;
+  width:137px;
 }
 
 .downloads a strong {
